@@ -2,8 +2,10 @@ import java.io.*;
 public class MyClass {
 
 	public static void main(String[] args) throws IOException{
-		System.out.println("First Task");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("First Task");
+		
 		System.out.println("Enter the radius");
 		double radius = Double.parseDouble(reader.readLine());
 		System.out.println("Perimeter:" + (2*radius*Math.PI));
@@ -12,6 +14,7 @@ public class MyClass {
 		
 		
 		System.out.println("Second Task");
+		
 		System.out.println("What's your name?");
 		String name = reader.readLine();
 		System.out.println("Where do you live, " + name + "?");
@@ -43,6 +46,7 @@ public class MyClass {
 	    System.out.println("Computer will count for first call " + ct2);
 	    System.out.println("Computer will count for first call " + ct3);
 	    System.out.println("Together: "+ (ct1+ct2+ct3));
+	    reader.close();
 	}
 
 }
