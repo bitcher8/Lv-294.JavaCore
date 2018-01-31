@@ -4,7 +4,8 @@ public class Main {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
-		Ex1Circle.perimeter();
+		//Ex1Circle.perimeter();
+		Ex2PersonInOut.person();
 
 	}
 
